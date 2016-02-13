@@ -1,0 +1,48 @@
+{
+  "name": "fona-3g",
+  "version": "1.0.6",
+  "main": "lib/simcom.js",
+  "description": "",
+  "keywords": [
+    "at",
+    "gsm",
+    "serial",
+    "sms",
+    "simcom",
+    "sim5320",
+    "fona 3g"
+  ],
+  "author": {
+    "name": "shaun mulligan",
+    "email": "shaun@resin.io",
+    "url": ""
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaunmulligan/fona-3g.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-coffee": "~0.9.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-coffeelint": "~0.0.8",
+    "grunt-simple-mocha": "~0.4.0",
+    "should": "~3.1.2",
+    "matchdep": "~0.3.0",
+    "mocha-cakes": "~0.9.0",
+    "grunt": "~0.4.2"
+  },
+  "dependencies": {
+    "buffertools": "^2.1.2",
+    "pdu": "^1.1.0",
+    "q": "^1.1.2",
+    "serialport": "^2.0.6",
+    "winston": "^0.9.0"
+  }
+}
